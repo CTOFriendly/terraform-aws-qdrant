@@ -31,7 +31,7 @@ This creates an EC2 instance with Qdrant installed and running. The instance is 
 You can then forward the Qdrant port to your local machine via following command:
 
 ```bash
-ssh -i qdrant-key.pem -L -N 6333:localhost:6333 ubuntu@$(terraform output qdrant_ip) &
+ssh -i qdrant-key.pem -L -N 6333:localhost:6333 ubuntu@$(terraform output -raw qdrant_ip) &
 ```
 
 And now you can access Qdrant on your local machine at `localhost:6333` !
