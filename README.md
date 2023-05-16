@@ -2,6 +2,8 @@
 
 Terraform module to deploy QDrant vector DB on EC2 AWS. For development usage only(for now).
 
+Made by CTOFriendly team. Need help with produt development or growth? Visit [our website to learn more!](https://ctofriendly.com/)
+
 ## Usage
 
 Make sure you have Terraform installed and configured with AWS credentials.
