@@ -1,3 +1,4 @@
+[![Terraform Registry URL](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://registry.terraform.io/modules/CTOFriendly/qdrant/aws/latest)
 ## Qdrant Terraform Module
 
 Terraform module to deploy QDrant vector DB on EC2 AWS. For development usage only(for now).
