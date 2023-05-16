@@ -10,12 +10,12 @@ Create a `main.tf` file with the following content:
 
 ```terraform
 module "qdrant" {
-  source = "github.com/ctofriendly/qdrant-terraform"
-
-  region      = "ap-south-1"
+  source        = "CTOFriendly/qdrant/aws"
+  version       = "0.0.1"
+  region        = "ap-south-1"
   instance_type = "t4g.micro"
-  key_name    = "qdrant-key"
-  disk_size   = 30
+  key_name      = "qdrant-key"
+  disk_size     = 30
 }
 ```
 
