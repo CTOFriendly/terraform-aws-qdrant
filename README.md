@@ -1,6 +1,6 @@
 ## Qdrant Terraform Module
 
-Terraform module to deploy Qdrant on EC2 AWS. Development usage only(for now).
+Terraform module to deploy QDrant vector DB on EC2 AWS. For development usage only(for now).
 
 ## Usage
 
